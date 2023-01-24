@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inicial scale=1.0">
+    <link rel="shortcut icon" href="./imagens/icone.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@100;300;500&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./css/src/estilo.css">
+        <link rel="stylesheet" href="./css/src/reset.css">
+        <link rel="stylesheet" href="./css/src/respo.css">
+    <title>Super Mario Bross - O Filme</title>
+</head>
+
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./video/video mario.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./imagens/logo.png" alt="logo">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html"> Home </a> </li>
+                <li><a href=""> Detalhes </a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="descricao">
+            <img src="./imagens/titulo.png" alt="imagem do titulo" class="imagem-titulo">
+            <p class="texto">
+                Mario é um filme baseado na série de video games, Super Mario Bros, da Nintendo. Nesse filme, Mario (Chris Pratt) deve embarcar em uma aventura para impedir que Bowser (Jack Black) consiga conquistar todos os reinos e virar invencível.
+            </p>
+            <button class="botao"> Veja o trailer </button>
+        </div>
+            <img src="./imagens/super-mario-chars.png" class="mario" alt="imagem dos personagens">
+            <div class="modal">
+                <div class="conteudo-modal">
+                    <spam class="fechar-modal">X</spam>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        <span> Todos os direitos reservados ©</span>
+            
+        <span> Desenvolvido por Rafael M. Sabioni </span>
+    </main>
+
+<script src="./css/src/index.js"></script>
+
+</body>
+
+</html>
